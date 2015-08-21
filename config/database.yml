@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: <%= ENV['USERNAME'] %>
+  password: <%= ENV['PASSWORD'] %>
+  host: <%= ENV['HOST'] %>
+
+development:
+  <<: *default
+  database: procurement_mgt_development
+
+test:
+  <<: *default
+  database: procurement_mgt_test
+
+production:
+  <<: *default
+  database: procurement_mgt_production
+  username: <%= ENV['PRODUCTION_USERNAME'] %>
+  password: <%= ENV['PRODUCTION_PASSWORD'] %>
