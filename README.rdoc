@@ -1,5 +1,20 @@
-== PPMIS - Phase 1
+== PPMIS - Phase 1 (ប្រព័ន្ធគ្រប់គ្រងលទ្ធកម្មសាធារណៈ - តំណាក់កាលទីមួយ)
 
  * Ruby version: 2.2.2
  * Rails version: 4.2.3
  * Database version: MySQL 5.6.25
+
+== PPMIS - Versioning (v0.0.1)
+ - Versioning (v0.0.1) គឺជាការអភិវឌ្ឍនៃប្រព័ន្ធដែលផ្តោតលើ មូលដ្ឋានគ្រឹះក្នុងការបង្កើតប្រព័ន្ធលទ្ធិកម្ម។
+
+   * Login Process
+   * User Authentication
+   * CRUD Accessibility Process
+   * Module Accessibility Module
+
+== Branch Protection
+ - Master Branch
+ - Production Branch
+ - Staging Branch
+ - Developement Branch
+ - Release v0.0.1
