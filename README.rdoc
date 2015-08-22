@@ -13,8 +13,8 @@
    * Module Accessibility Module
 
 == Branch Protection
- - Master Branch
- - Production Branch
- - Staging Branch
- - Developement Branch
- - Release v0.0.1
+ - Master Branch - Developers can push
+ - Production Branch - Protected
+ - Staging Branch - Developers can push
+ - Developement Branch - Developers can push
+ - Release v0.0.1 - Protected
